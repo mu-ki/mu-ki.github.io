@@ -2542,7 +2542,7 @@ h6 {
       -webkit-filter: brightness(0%); }
 
 .client-info {
-  padding: 25px 30px;
+  padding: 0px 30px;
   background: #faf8ff;
   text-align: center;
   position: relative;
@@ -2574,19 +2574,23 @@ h6 {
     font-size: 100px;
     font-weight: 700;
     line-height: 85px;
+    margin-top :20px;
     position: relative;
-    z-index: 9; }
+    z-index: 9;
+   }
   .client-info .smll {
     text-align: left;
     color: #000000;
     font-family: "Rubik", sans-serif;
     font-size: 20px;
-    margin-left: 20px; }
+    margin-left: 46px;
+    padding-top : 25px }
+    
 
 .call-now {
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: left;
-  margin-bottom: 40px; }
+  margin-bottom: 0px; }
   @media (max-width: 575px) {
     .call-now {
       padding-top: 0px; } }
@@ -2602,6 +2606,28 @@ h6 {
     font-size: 60px;
     font-weight: 700;
     color: #000000; }
+    /* ===================mail=============================== */
+
+    .mail-now {
+      padding-top: 0px;
+      text-align: left;
+      margin-bottom: 0px; }
+      @media (max-width: 575px) {
+        .mail-now {
+          padding-top: 0px; } }
+      @media (max-width: 480px) {
+        .mail-now h3 {
+          font-size: 17px; } }
+      .mail-now p {
+        color: #854fee;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 5px; }
+      .mail-now span {
+        font-size: 60px;
+        font-weight: 700;
+        color: #000000; }
+    
 
 /* End Brand Area css
 ============================================================================================ */
